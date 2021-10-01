@@ -57,10 +57,6 @@ spec:
       containers:
       - name: web
         image: durant35/rotten-potatoes:v1
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 5000
         env:
